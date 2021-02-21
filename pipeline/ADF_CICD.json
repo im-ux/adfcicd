@@ -11,23 +11,6 @@
 					"variableName": "TestSetVariable",
 					"value": "Hello"
 				}
-			},
-			{
-				"name": "TestSetVairableTast_copy1",
-				"type": "SetVariable",
-				"dependsOn": [
-					{
-						"activity": "TestSetVairableTast",
-						"dependencyConditions": [
-							"Succeeded"
-						]
-					}
-				],
-				"userProperties": [],
-				"typeProperties": {
-					"variableName": "TestSetVariable",
-					"value": "Hello"
-				}
 			}
 		],
 		"variables": {
