@@ -1,6 +1,23 @@
 {
 	"name": "ADF_CICD",
 	"properties": {
+		"activities": [
+			{
+				"name": "TestSetVairableTast",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "TestSetVariable",
+					"value": "Hello"
+				}
+			}
+		],
+		"variables": {
+			"TestSetVariable": {
+				"type": "String"
+			}
+		},
 		"annotations": []
 	}
 }
